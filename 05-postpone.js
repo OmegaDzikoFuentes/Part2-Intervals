@@ -26,7 +26,7 @@ function postpone(cb, delay) {
 
   return () => {
 
-    setInterval(cb, delay);
+    setTimeout(cb, delay);
 
   }
 }
